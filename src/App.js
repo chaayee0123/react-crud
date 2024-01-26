@@ -69,6 +69,8 @@ const App = () => {
       
       setCharge("");
       setAmount(0);
+     
+
       
     } else {
       handleAlert({type: "danger", text: "상품은 빈 값일 수 없으며 비용은 0보다 커야 합니다."});
@@ -81,6 +83,7 @@ const App = () => {
       setAlert({show: false})
     }, 7000);
   }
+
   
     return (
       <main className="main-container">
